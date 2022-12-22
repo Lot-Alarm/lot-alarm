@@ -7,6 +7,19 @@
 From your terminal:
 
 ```sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+```
+
+This installs `nvm` (Node.js Version Manager). It comes along with `npm` installed.
+
+```sh
+cd frontend
+npm install
+```
+
+This changes directory to `frontend` then installs frontend dependencies.
+
+```sh
 npm run dev
 ```
 
