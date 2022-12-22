@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a0a7cfb-f52b-4e81-ae84-b59cbf0e996d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/lot_alarm/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/lot_alarm/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/lot_alarm/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/lot_alarm/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/lot_alarm/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" />
+    <list default="true" id="6a0a7cfb-f52b-4e81-ae84-b59cbf0e996d" name="Changes" comment="initialize project v2">
+      <change afterPath="$PROJECT_DIR$/flight_checker/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flight_checker/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/flight_checker/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flight_checker/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/flight_checker/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -38,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false"
@@ -51,6 +50,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="SECRET_KEY" value="django-insecure-gl)x6e*gs0(6y44jq_tz%ztyu!2@whvw@48+e&amp;h%qym0aog2co" />
+        <env name="DJANGO_SETTINGS_MODULE" value="backend.settings" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\User\OneDrive\Documents\Development\Pycharm\Django\lot-alarm\backend\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -77,11 +77,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671731076697</updated>
-      <workItem from="1671731105014" duration="205000" />
+      <workItem from="1671731105014" duration="4164000" />
     </task>
+    <task id="LOCAL-00001" summary="initialize project v2">
+      <created>1671731392755</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671731392755</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initialize project v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="initialize project v2" />
   </component>
 </project>
