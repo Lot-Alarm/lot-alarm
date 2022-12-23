@@ -83,6 +83,14 @@
       <updated>1671731076697</updated>
       <workItem from="1671731105014" duration="205000" />
     </task>
+    <task id="LOCAL-00001" summary="add readme.md">
+      <created>1671804843909</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671804843909</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +106,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add readme.md" />
   </component>
 </project>
