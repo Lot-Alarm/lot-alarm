@@ -1,11 +1,19 @@
-# libraries to install
+# Setup
 
-```pip install Django```
+### libraries to install
 
-```pip install django-cors-headers```
+`pip install Django`
 
-```pip install djangorestframework```
+`pip install django-cors-headers`
 
-# how to run server
+`pip install djangorestframework`
 
-```python manage.py runserver```
+### run migrations
+
+`python manage.py makemigrations`
+
+`python manage.py migrate`
+
+### how to run server
+
+`python manage.py runserver`
