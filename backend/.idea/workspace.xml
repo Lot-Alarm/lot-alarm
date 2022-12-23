@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a0a7cfb-f52b-4e81-ae84-b59cbf0e996d" name="Changes" comment="initialize project v2">
-      <change afterPath="$PROJECT_DIR$/flight_checker/urls.py" afterDir="false" />
+    <list default="true" id="6a0a7cfb-f52b-4e81-ae84-b59cbf0e996d" name="Changes" comment="add api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flight_checker/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/flight_checker/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flight_checker/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/flight_checker/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -34,14 +29,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="backend" type="Python.DjangoServer" factoryName="Django server">
       <module name="backend" />
@@ -77,7 +72,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671731076697</updated>
-      <workItem from="1671731105014" duration="4164000" />
+      <workItem from="1671731105014" duration="5121000" />
+      <workItem from="1671793472545" duration="4598000" />
     </task>
     <task id="LOCAL-00001" summary="initialize project v2">
       <created>1671731392755</created>
@@ -86,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671731392755</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add flight model">
+      <created>1671736014017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671736014017</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add api">
+      <created>1671797597014</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671797597014</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +115,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialize project v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialize project v2" />
+    <MESSAGE value="add flight model" />
+    <MESSAGE value="add api" />
+    <option name="LAST_COMMIT_MESSAGE" value="add api" />
   </component>
 </project>
