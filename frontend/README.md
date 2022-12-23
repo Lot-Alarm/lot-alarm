@@ -10,14 +10,20 @@ From your terminal:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
 ```
 
-This installs `nvm` (Node.js Version Manager). It comes along with `npm` installed.
+This installs `nvm` (Node.js Version Manager).
 
 ```sh
 cd frontend
+nvm install 16
+```
+
+This changes directory to `frontend` then installs Node.js version 16 (It comes along with `npm` (Node Package Manager) installed).
+
+```sh
 npm install
 ```
 
-This changes directory to `frontend` then installs frontend dependencies.
+This installs frontend app dependencies (libraries)
 
 ```sh
 npm run dev
