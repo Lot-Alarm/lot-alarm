@@ -1,4 +1,4 @@
-# biblioteki do zainstalowania
+# libraries to install
 
 ```pip install Django```
 
@@ -6,6 +6,6 @@
 
 ```pip install djangorestframework```
 
-# how to runserver
+# how to run server
 
 ```python manage.py runserver```

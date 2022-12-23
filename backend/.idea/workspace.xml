@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a0a7cfb-f52b-4e81-ae84-b59cbf0e996d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/lot_alarm/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/lot_alarm/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/lot_alarm/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/lot_alarm/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/lot_alarm/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" />
-    </list>
+    <list default="true" id="6a0a7cfb-f52b-4e81-ae84-b59cbf0e996d" name="Changes" comment="add readme.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,13 +19,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="backend" type="Python.DjangoServer" factoryName="Django server">
       <module name="backend" />
@@ -79,9 +62,32 @@
       <updated>1671731076697</updated>
       <workItem from="1671731105014" duration="205000" />
     </task>
+    <task id="LOCAL-00001" summary="add readme.md">
+      <created>1671804843909</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671804843909</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add readme.md" />
   </component>
 </project>
