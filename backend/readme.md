@@ -1,4 +1,6 @@
-# libraries to install
+# Setup
+
+### libraries to install
 
 ```pip install Django```
 
@@ -6,6 +8,12 @@
 
 ```pip install djangorestframework```
 
-# how to run server
+### run migrations
+
+```python manage.py makemigrations```
+
+```python manage.py migrate```
+
+### how to run server
 
 ```python manage.py runserver```
