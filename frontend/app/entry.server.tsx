@@ -4,7 +4,9 @@ import { Response } from "@remix-run/node";
 import { RemixServer } from "@remix-run/react";
 import isbot from "isbot";
 import { renderToPipeableStream } from "react-dom/server";
-
+import { CacheProvider } from "@emotion/react";
+import createEmotionCache from "./createEmotionCache";
+import { ServerStyleContext } from "./context";
 const ABORT_DELAY = 5000;
 
 export default function handleRequest(
@@ -36,7 +38,6 @@ function handleBotRequest(
 ) {
   return new Promise((resolve, reject) => {
     let didError = false;
-
     const { pipe, abort } = renderToPipeableStream(
       <RemixServer context={remixContext} url={request.url} />,
       {
@@ -75,11 +76,17 @@ function handleBrowserRequest(
   responseHeaders: Headers,
   remixContext: EntryContext
 ) {
+  const cache = createEmotionCache();
+
   return new Promise((resolve, reject) => {
     let didError = false;
 
     const { pipe, abort } = renderToPipeableStream(
-      <RemixServer context={remixContext} url={request.url} />,
+      <ServerStyleContext.Provider value={null}>
+        <CacheProvider value={cache}>
+          <RemixServer context={remixContext} url={request.url} />
+        </CacheProvider>
+      </ServerStyleContext.Provider>,
       {
         onShellReady() {
           const body = new PassThrough();
