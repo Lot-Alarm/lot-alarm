@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a0a7cfb-f52b-4e81-ae84-b59cbf0e996d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/lot_alarm/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/lot_alarm/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/lot_alarm/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/lot_alarm/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/lot_alarm/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lot_alarm/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -38,11 +32,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\OneDrive\Documents\Development\Pycharm\Django\lot-alarm\backend\flight_checker\templates\flight_checker" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="backend" type="Python.DjangoServer" factoryName="Django server">
       <module name="backend" />
@@ -51,6 +54,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="SECRET_KEY" value="django-insecure-gl)x6e*gs0(6y44jq_tz%ztyu!2@whvw@48+e&amp;h%qym0aog2co" />
+        <env name="DJANGO_SETTINGS_MODULE" value="backend.settings" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\User\OneDrive\Documents\Development\Pycharm\Django\lot-alarm\backend\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -83,5 +87,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
