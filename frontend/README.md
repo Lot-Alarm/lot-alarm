@@ -25,6 +25,10 @@ npm run dev
 
 This starts your app in development mode, rebuilding assets on file changes.
 
+[http://localhost:3000](http://localhost:3000)
+
+Visit local URL. **Important: use browser's incognito mode to see app with CSS**
+
 ## Deployment
 
 First, build your app for production:
